@@ -31,3 +31,7 @@ nav a {
     justify-content: normal;
     margin-left: 60px;
 }
+
+.bildes {
+    align-self: flex;
+}
