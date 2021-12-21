@@ -6,7 +6,7 @@ body {
     color: white;
     display: flex;
     background-color: black;
-    height: 80px;
+    height: 4vw;
     align-items: center;
     justify-content: space-around;
 }
@@ -16,7 +16,7 @@ body {
 }
 
 .JanisKalnins {
-    font-size: 50px;
+    font-size: 2vw;
 }
 
 .saraksts {
