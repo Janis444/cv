@@ -11,14 +11,6 @@ body {
     justify-content: space-around;
 }
 
-.bar {
-    font-size: 20px;
-}
-
-.JanisKalnins {
-    font-size: 2vw;
-}
-
 .saraksts {
     background-color: white;
     color: black;
@@ -27,6 +19,31 @@ body {
     margin-left: 60px;
 }
 
+.kontakti {
+    color: white;
+    display: flex;
+    background-color: black;
+    height: 4vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bar {
+    font-size: 20px;
+}
+
+.JanisKalnins {
+    font-size: 2vw;
+}
+
 .bildes {
     align-self: flex;
+}
+
+@media (max-width:780px) {
+    .kontakti {
+        align-items: normal;
+        justify-content: mormal;
+        height: 7vh;
+    }
 }
